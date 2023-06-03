@@ -1,0 +1,37 @@
+q1
+input:	st1:qwe 	st2:qwe 
+output: 0
+
+input: st1:abc st2: ab
+output:1
+
+input: st1:ab st2: abc
+output: -1
+
+input: st1:ab st2: ac
+output: -1
+
+q2
+input:	st1:qwe 	st2:qwe postion: 2
+output:0
+
+input:	st1:qrw		st2:qwe postion: 3
+output:-1
+
+input:	st1:qwear	st2:qwe postion: 4
+output:1
+
+input:	st1:qwe 	st2:qwe postion: 10
+output:0
+
+q3
+input: st1:qwe char: w
+output:1
+
+input: st1:qwe char: r
+output:-1
+
+input: st1:qwe char: \n 
+output:-1
+
+
